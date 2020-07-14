@@ -1,0 +1,141 @@
+body{
+    background-color: darkgreen;
+}
+
+header{
+    font-size: 2em;
+    text-align: center;
+    color: darkgrey;
+    text-shadow: 10px 10px 10px black;
+    height: 70px;
+    margin-top: -30px;
+}
+
+#mensagem{
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3em;
+    color: white;
+    text-align: center; 
+    
+
+}
+
+#btn_quem{
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn_voce{
+    width: 60px;
+    height:50px;
+    border: solid 5px rgba(20,150,20, 0.5);
+    background-color: orangered;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    visibility: visible;    
+    
+}
+
+#btn_pc{
+    width: 60px;
+    height:50px;
+    border: solid 5px rgba(20,150,20, 0.5);
+    background-color: orangered;
+    border-radius: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    visibility: visible;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;    
+}
+
+.tabuleiro{       
+    background-color:rgba(20,150,20, 0.5);
+    width: 100px;
+    height: 100px;
+    text-align: center;    
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    line-height: 100px;
+    cursor: pointer;
+    
+}
+
+#limpar{    
+    width: 100px;
+    height: 100px;    
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btn_limpar{ 
+    width: 100px;
+    height: 60px;     
+    text-align: center;
+    font-size: 1.5em;
+    color: white; 
+    font-weight: bold;
+    cursor: pointer; 
+    background-color: orangered;
+    border: solid 5px rgba(20,150,20, 0.5);  
+    border-radius: 15px; 
+}
+
+#dv00{        
+    border-right: 5px solid orangered;
+    border-bottom: 5px solid orangered;
+}
+
+#dv01{       
+    border-right: 5px solid orangered;
+    border-bottom: 5px solid orangered
+}
+
+#dv02{        
+    border-bottom: 5px solid orangered;
+}
+
+#dv10{       
+    border-right: 5px solid orangered;
+    border-bottom: 5px solid orangered;
+}
+#dv11{        
+    border-right: 5px solid orangered;
+    border-bottom: 5px solid orangered;
+}
+
+#dv12{     
+    border-bottom: 5px solid orangered;
+}
+#dv20{        
+    border-right: 5px solid orangered;
+    
+}
+
+#dv21{       
+    border-right: 5px solid orangered;
+    
+}
+
+
+footer{
+    font-style: italic;
+    color:white;
+    font-size: 1em;
+    
+}

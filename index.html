@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jogo da Velha</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header><h1>Jogo da Velha</h1></header>
+
+    <div id="mensagem">        
+    </div>
+
+    <div id="btn_quem">
+    <button id="btn_voce" onclick="voce()">Você</button>    
+    <button id="btn_pc" onclick="pc()">PC</button>
+    </div>
+
+    <div class="container">
+        <div id="coluna0">
+            <div class="tabuleiro" id="dv00" onclick="jogX(0)"></div>
+            <div class="tabuleiro" id="dv10" onclick="jogX(1)"></div>
+            <div class="tabuleiro" id="dv20" onclick="jogX(2)"></div>
+        </div>
+        <div id="coluna1">
+            <div class="tabuleiro" id="dv01" onclick="jogX(3)"></div>
+            <div class="tabuleiro" id="dv11" onclick="jogX(4)"></div>
+            <div class="tabuleiro" id="dv21" onclick="jogX(5)"></div>
+        </div>
+        <div id="coluna2">
+            <div class="tabuleiro" id="dv02" onclick="jogX(6)"></div>
+            <div class="tabuleiro" id="dv12" onclick="jogX(7)"></div>
+            <div class="tabuleiro" id="dv22" onclick="jogX(8)"></div>
+        </div>
+    </div>
+
+    <div id="limpar">
+    <button id="btn_limpar" onclick="limpar()">Limpar</button>
+    </div>
+
+    <footer>&#169; Eduardo de Almeida Oliveira</footer>
+</body>
+</html>
